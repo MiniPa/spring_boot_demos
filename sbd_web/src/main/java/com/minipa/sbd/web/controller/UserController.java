@@ -15,7 +15,6 @@ import java.util.List;
  *
  * @author: <a href="mailto:chengjs_minipa@outlook.com">chengjs</a>, version:1.0.0, 2017/11/24
  */
-
 @RestController
 public class UserController {
 
