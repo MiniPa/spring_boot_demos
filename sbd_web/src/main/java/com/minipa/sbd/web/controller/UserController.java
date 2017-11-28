@@ -11,7 +11,7 @@ import java.util.List;
 
 /**
  * UserController: Redis注解使用方式
- * 手动方式见@link com.minipa.sbd.web.component.RedisTest
+ * 手动方式见@link com.minipa.sbd.controller.component.RedisTest
  *
  * @author: <a href="mailto:chengjs_minipa@outlook.com">chengjs</a>, version:1.0.0, 2017/11/24
  */

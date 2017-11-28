@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Hello Thymeleaf!</title>
+</head>
+<body>
+<p th:text="'Hi my dear ' + ${name} + '!'"/>
+
+<p>
+  <a href="http://www.thymeleaf.org/doc/tutorials/2.1/thymeleafspring.html#integrating-thymeleaf-with-spring">
+    请查看thymeleaf官网
+  </a>
+</p>
+
+<p>
+  <a href="http://www.ityouknow.com/springboot/2016/05/01/springboot(%E5%9B%9B)-thymeleaf%E4%BD%BF%E7%94%A8%E8%AF%A6%E8%A7%A3.html">
+    请查看此 优秀 blog my teacher
+  </a>
+</p>
+
+<p>下面是strapdown.js引入的markdown块</p>
+<xmp theme="united" style="display:block;">
+  ### Thymeleaf 特点
+  1.有网无网可运行,支持html原型,达到模板+数据的展示方式
+  2.开箱即用,提供标准和spring标准两种方言,直接套用模板实现JSTL、OGNL表达式效果
+  3.提供spring标准方言和一个与 SpringMVC 完美集成的可选模块，可以快速的实现表单绑定、属性编辑器、国际化等功能
+  ### 标准表达式语法
+  1.变量表达式 即OGNL表达式或Spring EL表达式(Spring术语中也叫model attributes)
+  2.选择或星号表达式 用一个预先选择的对象来代替上下文变量容器(map)来执行
+  3.文字国际化表达式 从一个外部文件获取区域文字信息(.properties)，用Key索引Value，还可以提供一组参数(可选)
+  4.URL表达式 把一个有用的上下文或回话信息添加到URL，这个过程经常被叫做URL重写
+
+  5.星号语法评估在选定对象上表达,而不是整个上下文,选定对象? 就是父标签的值.
+</xmp>
+
+</body>
+
+<script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
+</html>
+
+
