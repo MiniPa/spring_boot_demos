@@ -11,7 +11,7 @@ public class SbdMybatisApplicationTests {
 
 	@Test
 	public void contextLoads() {
-    System.out.println("hello my dear");
+    System.out.println("direct my dear");
 	}
 
 }

@@ -20,7 +20,7 @@ public class ThymeleafController {
 		String formattedDate = dateFormat.format(date);
 		model.addAttribute("currentTime", formattedDate);
 
-		return "hello";
+		return "direct";
 	}
 
 }
