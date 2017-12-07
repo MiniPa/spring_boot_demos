@@ -12,9 +12,10 @@ import java.util.List;
 
 @Entity
 public class SysPermission implements Serializable {
-    @Id@GeneratedValue
-    @Column(unique = true)
+    @Id
+    @GeneratedValue
     private Integer id;//主键.
+    @Column(unique = true)
     private String name;//名称.
     @Column(columnDefinition="enum('menu','button')")
     private String resourceType;//资源类型 [menu|button]
