@@ -11,9 +11,9 @@ public class MiniSender2 {
 	private AmqpTemplate rabbitTemplate;
 
 	public void send(int i) {
-		String context = "spirng boot neo queue"+" ****** "+i;
+		String context = "spirng boot miniSender2 queue"+" ****** "+i;
 		System.out.println("Sender2 : " + context);
-		this.rabbitTemplate.convertAndSend("neo", context);
+		this.rabbitTemplate.convertAndSend("mini", context);
 	}
 
 }

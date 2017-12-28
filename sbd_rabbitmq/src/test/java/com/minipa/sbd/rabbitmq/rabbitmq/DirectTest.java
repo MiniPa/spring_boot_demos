@@ -26,5 +26,4 @@ public class DirectTest {
 		helloSender.send();
 	}
 
-
 }
