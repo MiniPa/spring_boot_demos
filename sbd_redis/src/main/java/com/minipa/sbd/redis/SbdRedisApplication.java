@@ -13,4 +13,5 @@ public class SbdRedisApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SbdRedisApplication.class, args);
 	}
+
 }

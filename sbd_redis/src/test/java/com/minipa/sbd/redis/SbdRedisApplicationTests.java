@@ -11,6 +11,7 @@ public class SbdRedisApplicationTests {
 
 	@Test
 	public void contextLoads() {
+    System.out.println("hello web");
 	}
 
 }
