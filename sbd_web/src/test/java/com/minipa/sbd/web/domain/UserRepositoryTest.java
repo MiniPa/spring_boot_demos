@@ -10,6 +10,9 @@ import org.springframework.test.context.junit4.SpringRunner;
 import java.text.DateFormat;
 import java.util.Date;
 
+import com.minipa.sbd.web.domain.UserRepository;
+import com.minipa.sbd.web.domain.User;
+
 import static org.junit.Assert.*;
 
 /**
