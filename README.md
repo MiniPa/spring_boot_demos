@@ -35,7 +35,7 @@ There are no complicated operation flows or xxx system,just some practical share
 
 ```
 
-## TODO LIST "已完成功能/未验证功能" OK
+## TODO LIST "已完成功能/未验证功能" OK2
 
 * [x] [Spring Boot Introduction](https://minipachengjs.wordpress.com/2017/12/25/%E3%80%90spring-boot-%E6%A0%8F%E7%9B%AE%E3%80%91/)
 * [x] [Spring Boot 入门](https://minipachengjs.wordpress.com/2017/12/25/1-spring-boot-%E5%85%A5%E9%97%A8/)
