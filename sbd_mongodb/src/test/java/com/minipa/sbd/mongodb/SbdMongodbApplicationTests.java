@@ -11,6 +11,8 @@ public class SbdMongodbApplicationTests {
 
 	@Test
 	public void contextLoads() {
+
+
 	}
 
 }
