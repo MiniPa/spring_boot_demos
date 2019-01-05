@@ -6,7 +6,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 /**
- * User:
+ * User: 用户
  * 
  * @author: <a href="mailto:chengjs@servyou.com.cn">chengjs</a>
  * @version: 1.0.0, 2017-11-28 
