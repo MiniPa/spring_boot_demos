@@ -6,6 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  *  Redis: 使用最广泛的内存数据存储 支持的数据结构丰富, 支持数据持久化
  *  Redis还提供一些类数据库的特性，比如事务，HA，主从库
+ *  changetest
  */
 @SpringBootApplication
 public class SbdRedisApplication {
